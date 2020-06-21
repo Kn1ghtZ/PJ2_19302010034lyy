@@ -25,7 +25,7 @@ error_reporting(5);
         //1.创建一个二维数组用于存储省份和城市
         var cities = new Array(4);
         cities[0] = new Array("---Select or Enter---","Shanghai", "Kunming", "Beijing", "Yantai");
-        cities[1] = new Array("---Select or Enter---","Tokyo", "Osaka", "Kamakura", "Yokohama");
+        cities[1] = new Array("---Select or Enter---","Tokyo", "Yuki", "Kamakura", "Masuda");
         cities[2] = new Array("---Select or Enter---","Roma", "Verona", "Venezia", "Firenze");
         cities[3] = new Array("---Select or Enter---","Koeln", "Darmstadt", "Frankfurt am Main", "Berlin");
 
