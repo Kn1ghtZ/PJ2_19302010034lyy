@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* 页面头部 */
+header {
+    height: 50px;
+    background-color: #000000;
+}
+
+.logo {
+    float: left;
+}
+
+.navbar {
+    width: 27.86%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+
+.navbar li {
+    float: left;
+    font-size: 1.053vw;
+}
+
+.navbar .home_nav{
+    width: 32.29%;
+}
+.navbar .browser_nav{
+    width: 34.36%;
+}
+    
+.navbar .search_nav{
+    width: 33.35%;
+}
+.navbar li a {
+    text-align: center;
+    color: #f7f7f7;
+    padding: 0 10.41%;
+    display: block;
+    
+}
+
+
+
+
+/* myaccount */
+.personal {
+
+    float: right;
+}
+
+.personal a {
+    color: #f7f7f7;
+}
+
+.personal li {
+    font-size: 1vw;
+    float: right;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+}
+
+.personal ul li ul {
+    width: 100% ;
+    height: 50px ;
+    display: none;
+}
+
+.personal ul li ul li {
+    width: 100%;
+    background-color: black;
+}
+
+.personal ul li:hover ul {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+.personal ul li:hover ul li a {
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    background-color: #000000;
+}
+
+.navbar li a:hover {
+    background-color: #222222;
+    border-bottom: 3px solid #f7f7f7;
+}
+
+.personal li:hover {
+    background-color: #222222;
+}
+
+.personal ul li:hover ul li :hover {
+    background-color: #222222;
+}
+
+
+body{
+    background-image: url(../../images/background/backgroundPurple.jpg);
+    background-size: 100% 100%;
+    
+ }
+
+/* container部分 */
+.container {
+    
+    width: 87.3%;
+    height: 1060px;
+    margin: 21px auto;
+    background-color: white;
+
+    border: 1px solid #d1d5da;
+
+    border-radius: 10px;
+}
+
+.container h4 {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    background-color: #f3f5f8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bolder;
+
+}
+
+.container li {
+    height: 15.79vw;
+    border-top: 1px solid #d1d5da;
+    border-bottom: 1px solid #d1d5da;
+}
+
+.container li .pic {
+    width: 19.74vw;
+    height: 15vw;
+    background-color: white;
+    float: left;
+}
+
+.container li .pic img {
+    margin: 1.31vw 1.64vw;
+    width: 16.45vw;
+    height: 13.16vw;
+}
+
+.description {
+    float: left;
+    height: 15.79vw;
+    width: 55vw;
+    background-color: white;
+
+}
+
+.description h1 {
+    font-size: 2vw;
+    margin-top: 1.97vw;
+    margin-left: 20px;
+}
+
+.description p {
+    height: 88.8px;
+    margin-top: 1.31vw;
+    margin-left: 20px;
+    line-height: 1.97vw;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.053vw;
+}
+
+.container input[type="button"] {
+    border-color: azure;
+    margin-left: 20px;
+    margin-top: 0.66vw;
+    width: 4.6vw;
+    height: 2.3vw;
+    font-weight: bolder;
+    color: tomato;
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9vw;
+}
+
+/* 页码 */
+.container .pageNumber p {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.053vw;
+}
+
+.pageNumber p a {
+    color: #88aee9;
+}
+
+.fontPage p .on{
+    color: #216de0;
+}
+
+.container .pageNumber p span {
+    margin: 0 1.32vw;
+}
+/* 页脚 */
+footer {
+    height: 290px;
+    background-color: #212121;
+    margin-top: 80px;
+    min-height: 42vh;
+}
+
+.footer-in {
+
+    padding-top: 46px;
+}
+
+a {
+    color: #fbfbfb;
+    text-decoration: none;
+}
+
+.footer-l {
+    padding-left: 10.07%;
+}
+
+.footer-l dl {
+    float: left;
+    width: 19.81%;
+}
+
+.footer-l dt {
+    font-size: 13px;
+    color: #fbfbfb;
+    height: 52px;
+    width: 100%;
+}
+.footer-l dl.image{
+    width: 60px;
+}
+.footer-l dl .img {
+
+    width: 60px;
+}
+
+.footer-r {
+    float: right;
+    padding-right: 10%;
+}
+.footer-r img{
+    width: 12vw;
+}
+.clear {
+    clear: both;
+}
+
+.Copyright {
+    width: 100%;
+    margin-top: 30px;
+
+    text-align: center;
+    
+}
+select,
+input {
+outline: none;
+}

@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* 页面头部 */
+header {
+    height: 50px;
+    background-color: #000000;
+}
+
+.logo {
+    float: left;
+}
+
+.navbar {
+    width: 27.86%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+
+.navbar li {
+    float: left;
+    font-size: 1.053vw;
+}
+
+.navbar .home_nav{
+    width: 32.29%;
+}
+.navbar .browser_nav{
+    width: 34.36%;
+}
+    
+.navbar .search_nav{
+    width: 33.35%;
+}
+.navbar li a {
+    text-align: center;
+    color: #f7f7f7;
+    padding: 0 10.41%;
+    display: block;
+    
+}
+
+.home_nav {
+    background-color: #222222;
+}
+
+
+/* myaccount */
+.personal {
+    width: 10%;
+    float: right;
+}
+
+.personal a {
+    color: #f7f7f7;
+}
+
+.personal li {
+    font-size: 1vw;
+    float: right;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+}
+
+.personal ul li ul {
+    width: 100% ;
+    height: 50px ;
+    display: none;
+}
+
+.personal ul li ul li {
+    width: 100%;
+    background-color: black;
+}
+
+.personal ul li:hover ul {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+.personal ul li:hover ul li a {
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    background-color: #000000;
+}
+
+.navbar li a:hover {
+    background-color: #222222;
+    /*border-bottom: 3px solid #f7f7f7;*/
+}
+
+.personal li:hover {
+    background-color: #222222;
+}
+
+.personal ul li:hover ul li :hover {
+    background-color: #222222;
+}
+
+
+
+body{
+    background-image: url(../../images/background/background.jpg);
+    background-size: 100% 100%;
+
+}
+/* 页面头图 */
+.banner {
+    width: 80%;
+    height: 35.156%;
+    margin: 0 auto;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+/* .banner {
+    width: 1200px;
+    height: 720px;
+    margin: 0 auto;
+} */
+
+/* 热门图片 */
+.hotpicture {
+    width: 1198px;
+    margin: 82px auto;
+
+}
+
+.hotpicture ul li {
+    margin-right: 50px;
+    margin-bottom: 52px;
+    width: 366px;
+    height: 360px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    float: left;
+}
+
+.hotpicture ul li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.hotpicture ul li img {
+    margin-top: 23px;
+    margin-left: 23px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    height: 240px;
+    width: 320px;
+}
+
+.hotpicture ul li h5,
+.hotpicture ul li p {
+    margin: 0 41px;
+
+}
+
+.hotpicture ul li h5 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.hotpicture ul li p {
+    font-weight: lighter;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 页脚 */
+footer {
+    height: 290px;
+    background-color: #212121;
+    margin-top: 80px;
+}
+
+.footer-in {
+
+    padding-top: 46px;
+}
+
+a {
+    color: #fbfbfb;
+    text-decoration: none;
+}
+
+.footer-l {
+    padding-left: 10.07%;
+}
+
+.footer-l dl {
+    float: left;
+    width: 19.81%;
+}
+
+.footer-l dt {
+    font-size: 13px;
+    color: #fbfbfb;
+    height: 52px;
+    width: 100%;
+}
+.footer-l dl.image{
+    width: 60px;
+}
+.footer-l dl .img {
+
+    width: 60px;
+}
+
+.footer-r {
+    float: right;
+    padding-right: 10%;
+}
+.footer-r img{
+    width: 12vw;
+}
+.clear {
+    clear: both;
+}
+
+.Copyright {
+    width: 100%;
+    margin-top: 30px;
+
+    text-align: center;
+    
+}
+
+
+#goToTop{
+    position:fixed;
+    bottom: 20px;
+    right: 3%;
+ } 
+  #goToTop a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+   border: 1px solid #CCCCCC;   
+   }
+   #upward{
+       width: 100%;
+       height: 100%;
+   }
+
+ #refresh{
+     position: fixed;
+     bottom:60px ;
+     right: 3%;
+ }
+ #refresh a{
+  display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+   border: 1px solid #CCCCCC;   
+ }
+ #refreshPic{
+       width: 100%;
+       height: 100%;
+   }
+
+
+
+ @media screen and (max-width:1200px){
+  .hotpicture{
+      width: 366px;
+  }
+ }

@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* 页面头部 */
+header {
+    height: 50px;
+    background-color: #000000;
+}
+
+.logo {
+    float: left;
+}
+
+.navbar {
+    width: 27.86%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+
+.navbar li {
+    float: left;
+    font-size: 1.053vw;
+}
+
+.navbar .home_nav{
+    width: 32.29%;
+}
+.navbar .browser_nav{
+    width: 34.36%;
+}
+    
+.navbar .search_nav{
+    width: 33.35%;
+}
+.navbar li a {
+    text-align: center;
+    color: #f7f7f7;
+    padding: 0 10.41%;
+    display: block;
+    
+}
+.browser_nav{
+    background-color: black;
+}
+
+
+
+/* myaccount */
+.personal {
+    width: 10%;
+    float: right;
+}
+
+.personal a {
+    color: #f7f7f7;
+}
+
+.personal li {
+    font-size: 1vw;
+    float: right;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+}
+
+.personal ul li ul {
+    width: 100% ;
+    height: 50px ;
+    display: none;
+}
+
+.personal ul li ul li {
+    width: 100%;
+    background-color: black;
+}
+
+.personal ul li:hover ul {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+.personal ul li:hover ul li a {
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    background-color: #000000;
+}
+
+.navbar li a:hover {
+    background-color: #222222;
+    border-bottom: 3px solid #f7f7f7;
+}
+
+.personal li:hover {
+    background-color: #222222;
+}
+
+.personal ul li:hover ul li :hover {
+    background-color: #222222;
+}
+
+
+body{
+    background-image: url(../../images/background/backgroundRed.jpg);
+    background-size: 100% 100%;
+    
+ }
+/* container部分 */
+.container {
+    width: 87.28vw;
+height: 774.64px;
+    margin: 21px auto;
+    background-color: white;
+
+    border: 1px solid #d1d5da;
+
+
+    border-radius: 10px;
+
+min-height: 60vh;
+}
+
+.container h4 {
+    height: 2.63vw;
+    line-height: 2.63vw;
+    padding-left: 1.61vw;
+    background-color: #f3f5f8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bolder;
+font-size: 1.053vw;
+
+}
+.title{
+   
+    text-align: center;
+    height: 6.58vw;
+}
+.title h1{
+    line-height: 6.58vw;
+    font-size: 2.6vw;
+}
+.title span{
+    line-height: 6.58vw;
+    margin-left: 3%;
+    font-size: 0.8vw;
+}
+.leftImg{
+    width: 35.81vw;
+    height: 26.98vw;
+    margin-left: 7.37vw;
+    background-color: red;
+    float: left;
+}
+.picShow{
+    
+    margin-top: 20px;
+}
+.leftImg img{
+    width: 35.81vw;
+    height: 26.98vw;
+}
+.rightForm{
+
+    width: 35.81vw;
+    margin-left: 1.64vw;
+    margin-right: 6.58vw;
+    height: 26.98vw;
+    float: left;
+}
+.rightForm h4{
+    font-size: 1.053vw;
+}
+.Num{
+    border: 1px solid #d1d5da;
+    height: 3.29vw;
+    line-height: 3.29vw;
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    background-color: white;
+    color: red;
+}
+.imgDetails{
+    margin-top: 34px;
+}
+.rightForm h4{
+    border: 1px solid #d1d5da;
+    font-size: 1.053vw;
+}
+.Details{
+    height: 2.63vw;
+    line-height: 2.63vw;
+    padding-left: 1.31vw;
+    background-color: white;
+    border: 1px solid #d1d5da;
+    font-size: 1.053vw;
+}
+#bt{
+    margin-top: 2.97vw;
+    width: 35.54vw;
+    height: 3.29vw;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    font-weight: bolder;
+    font-size: 1.3vw;
+    color: white;
+
+}
+.description p{
+    margin: 2.63vw 7.58vw;
+    line-height: 2.63vw;
+    font-size: 1vw;
+
+}
+/* 页脚 */
+footer {
+    height: 290px;
+    background-color: #212121;
+    margin-top: 80px;
+    min-height: 35vh;
+}
+
+.footer-in {
+
+    padding-top: 46px;
+}
+
+a {
+    color: #fbfbfb;
+    text-decoration: none;
+}
+
+.footer-l {
+    padding-left: 10.07%;
+}
+
+.footer-l dl {
+    float: left;
+    width: 19.81%;
+}
+
+.footer-l dt {
+    font-size: 13px;
+    color: #fbfbfb;
+    height: 52px;
+    width: 100%;
+}
+.footer-l dl.image{
+    width: 60px;
+}
+.footer-l dl .img {
+
+    width: 60px;
+}
+
+.footer-r {
+    float: right;
+    padding-right: 10%;
+}
+.footer-r img{
+    width: 12vw;
+}
+.clear {
+    clear: both;
+}
+
+.Copyright {
+    width: 100%;
+    margin-top: 30px;
+
+    text-align: center;
+    
+}
+
+select,
+input {
+    outline: none;
+}
+
+

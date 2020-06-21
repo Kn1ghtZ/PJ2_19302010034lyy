@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f9f9f9;
+}
+
+/* 中间整体 */
+.login {
+    width: 400px;
+    height: 600px;
+    background-color: #f9f9f9;
+    margin: 80px auto 0px;
+}
+
+/* logo栏 */
+.logoimg {
+    margin: 0 145px 0;
+}
+
+p {
+    font-weight: bold;
+}
+
+.slogan {
+    text-align: center;
+}
+
+/* 输入表单 */
+.formbox {
+    width: 352px;
+    height: 428px;
+    background-color: #ffffff;
+    margin: 22px auto 0;
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+}
+
+form {
+    margin-top: 28px;
+    margin-left: 20px;
+}
+
+input {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 310px;
+    height: 25px;
+    border: 1px solid #808080;
+    border-radius: 3px;
+
+}
+
+a input {
+    margin-top: 20px;
+    height: 34px;
+    width: 310px;
+    background-color: #6bcf59;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+ /* 页脚 */
+footer {
+    height: 290px;
+    background-color: #212121;
+    margin-top: 80px;
+}
+
+.footer-in {
+
+    padding-top: 46px;
+}
+
+a {
+    color: #fbfbfb;
+    text-decoration: none;
+}
+
+.footer-l {
+    padding-left: 10.07%;
+}
+
+.footer-l dl {
+    float: left;
+    width: 19.81%;
+}
+
+.footer-l dt {
+    font-size: 13px;
+    color: #fbfbfb;
+    height: 52px;
+    width: 100%;
+}
+.footer-l dl.image{
+    width: 60px;
+}
+.footer-l dl .img {
+
+    width: 60px;
+}
+
+.footer-r {
+    float: right;
+    padding-right: 10%;
+}
+.footer-r img{
+    width: 12vw;
+}
+.clear {
+    clear: both;
+}
+
+.Copyright {
+    width: 100%;
+    margin-top: 30px;
+
+    text-align: center;
+    
+}
+
+.form_reg{
+
+}
