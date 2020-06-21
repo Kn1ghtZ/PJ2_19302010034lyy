@@ -251,7 +251,7 @@ bb.value ="'.$imgtitle.'";     
 
                     move_uploaded_file($_FILES["file0"]["tmp_name"],
                         "./../images/travel-images/normal/small/".$_FILES["file0"]["name"]);
-                    echo "<script>alert('上传成功！');</script>";
+                    echo "<script>alert('上传成功！');window.location.href='upload.php'</script>";
 
 //            echo "Stored in: " . "./../images/travel-images/normal/small/" . $_FILES["file0"]["name"];
                 }
